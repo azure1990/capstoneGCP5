@@ -1,5 +1,5 @@
 # capstoneGCP5
-Project for bootcamp
+Project for Europe Travel
 
 - We cloned the repository https://github.com/GNiruthian/Europe-Travel-Website-html-css-js
 - We created the image locally with Docker. First the Dockerfile:
