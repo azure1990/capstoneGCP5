@@ -28,7 +28,7 @@ docker pull robscode/101capstonegcp
 
 - Create repository image:
 
-gcloud artifacts repositories create capstonegcp --repository-format=docker --location=us-central1 --description="Capstone project group 5"
+docker tag [IMAGE_NAME] gcr.io/[PROJECT_ID]/[REPO_NAME]/[IMAGE_NAME]:[TAG]
 
 - Authenticated docker on the CLI:
 
