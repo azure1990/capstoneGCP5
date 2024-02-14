@@ -12,7 +12,8 @@ COPY Europe-Travel-Website-html-css-js  /usr/share/nginx/html
 
 docker build -t NAME_YOU_WANT_FOR_YOUR_IMAGE
 
-- Next we uploaded the image to Docker hub (this was an extra step on our behalf)
+- Next we uploaded the image to Docker hub (this was an extra step on our behalf):
+Steps on this link https://docs.docker.com/get-started/04_sharing_app/
 
 - Create the repository on Registry:
 
@@ -37,4 +38,10 @@ gcloud auth configure-docker
 - Push the image to the repository we created on Registry:
 
 docker push gcr.io/elsalgroup5/capstonegcp/capstonegcp5:final
+
+- Deployed to GKE using the GUI on the Google Cloud Console. 
+
+- Created the git log file with the command:
+
+git --no-pager log > file.log
 
