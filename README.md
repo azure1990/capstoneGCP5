@@ -21,11 +21,11 @@ gcloud artifacts repositories create [REPO_NAME] — repository-format=docker \
 
 - Now on the GCP CLI, we proceeded to pull the image from our Docker Hub rep, create the image for the Registry and then deploy the image with GKE
 
-- Docker pul:
+- Docker pull:
 
 docker pull robscode/101capstonegcp
 
-- Create repository:
+- Create repository image:
 
 gcloud artifacts repositories create capstonegcp --repository-format=docker --location=us-central1 --description="Capstone project group 5"
 
